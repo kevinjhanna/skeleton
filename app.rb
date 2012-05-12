@@ -13,6 +13,11 @@ class Cuba
     urls: ["/js", "/css", "/images"]
 end
 
+
+def session
+  env["rack.session"]
+end
+
 Cuba.define do
   on get do
     on root do
