@@ -3,11 +3,10 @@ Start without delay coding your app.
 
 You may need to install redis.
 
-1. `gem install bundle`
-2. `bundle install`
-3. Fire up `shotgun`
-4. `compass watch ./`
-5. code on!
+1. Install dep, a [basic dependency tracking](https://github.com/cyx/dep) gem.
+2. Run `dep install` to install the necessary gems.
+3. `compass watch ./`
+4. Fire up `shotgun`
 
 Includes:
 * Shotgun
