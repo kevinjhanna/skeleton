@@ -1,3 +1,4 @@
+require "erubis"
 require "cuba"
 require "cuba/render"
 require "rack/protection"
