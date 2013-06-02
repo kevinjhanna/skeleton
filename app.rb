@@ -1,6 +1,11 @@
 # encoding: UTF-8
 
-require_relative "shotgun" unless defined?(::Shotgun)
+require File.expand_path("shotgun",  File.dirname(__FILE__))
+require File.expand_path("settings", File.dirname(__FILE__))
+
+# Configure your default settings in env.sh
+Malone.connect(url: Settings::MALONE_URL)
+Ohm.connect(url: Settings::REDIS_URL)
 
 class Cuba
   plugin Cuba::Render
