@@ -7,3 +7,4 @@ compass -v 0.12.2
 erubis -v 2.7.0
 malone -v 1.0.4
 tilt -v 1.4.1
+capybara-webkit -v 1.0.0

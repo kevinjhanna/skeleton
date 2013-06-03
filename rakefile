@@ -1,7 +1,8 @@
-task :default => :test
+task default: :test
 
+desc "Run tests"
 task :test do
-  require "cuba/test"
+  require "cutest"
 
   Cutest.run(Dir["test/*.rb"])
 end
